@@ -1,0 +1,18 @@
+Observer Design pattern Notes-:
+
+This design pattern is beneficial in notification system at real time.
+If let say at amazon if user is planning to buy iphone but when user searched the iphone he found that
+ iphone is out of stock  so he will click on notify me button whenever mobile come into stock.
+
+Low level design of Observer Design Pattern
+ Step 1 :Create Observable interface
+ Step 2 :Create Concrete class of Observable
+ Step 3 :Define add user ,remove user, notifyUser, setCount, get Count function in observable and implement in concrete class.
+ Step 4 : Create Observer Class which constains update method.
+ Step 5 : so whenever new user is adding himself for getting notification add method will get triggered which will add the user
+ Step 6 : If he is removing himself remove will get called.
+ Step 7 : Whenever nw product enetered in stock it will update count and call notify method which will call update method of observers.
+
+ Output for the code is -> email sent toxyz@gmail.com
+                           email sent toradhika@gmail.com
+                           Count is :{}2
