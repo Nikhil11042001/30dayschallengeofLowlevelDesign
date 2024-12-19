@@ -1,29 +1,38 @@
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+Solution design of Tic Tac Toe Game
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+Player Choice enum :-
+Here we have defined what all possibile options here  i.e. X and O.
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+PlayerChoice
+This class contains that what option user will going to have
+so it contains PlayerChoiceEnum Object.
 
-### VS Code ###
-.vscode/
+PlayerChoiceX
+it extends Player chocie and in calling of parent consytructor pass X.
 
-### Mac OS ###
-.DS_Store
+PlayerChoiceO
+it extends Player chocie and in calling of parent consytructor pass O.
+
+Player
+It contains name of player and player choice.
+
+Board Class
+  int size;
+  public PlayerChoice 2d array board;
+  define getFreeCells method and addPiece method
+
+TicTacToe Class
+ in constructor do initialization
+ here players is deque
+  public void initialization() {
+         players=new LinkedList<>();
+         PlayerChoiceX player1Choice = new PlayerChoiceX();
+         PlayerChoiceO player2Choice = new PlayerChoiceO();
+         Player player1 =  new Player("Nikhil",player1Choice);
+         Player player2 =  new Player("Purvi",player2Choice);
+         players.add(player1);
+         players.add(player2);
+         gameBoard = new Board(3);
+     }
+
+   write startGame Method.
