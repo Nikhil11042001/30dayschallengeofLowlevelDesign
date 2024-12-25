@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09d4d08f-b39c-4868-b536-35c9c8d0965a" name="Changes" comment="updating git.ignore file for code explaination" />
+    <list default="true" id="09d4d08f-b39c-4868-b536-35c9c8d0965a" name="Changes" comment="initial commit of proxy design pattern" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,19 +52,6 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -121,7 +108,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734624677122</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="initial commit of proxy design pattern">
+      <option name="closed" value="true" />
+      <created>1734629127228</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1734629127228</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,7 +135,8 @@
     <MESSAGE value="creating single folder in observer design pattern" />
     <MESSAGE value="initial commit of Tic Tac Toe game in 30 days challenge" />
     <MESSAGE value="updating git.ignore file for code explaination" />
-    <option name="LAST_COMMIT_MESSAGE" value="updating git.ignore file for code explaination" />
+    <MESSAGE value="initial commit of proxy design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit of proxy design pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

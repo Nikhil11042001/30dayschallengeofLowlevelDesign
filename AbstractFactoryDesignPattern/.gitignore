@@ -1,0 +1,10 @@
+# ABSTRACT FACTORY DESIGN PATTERN
+
+GUIAbstractFactory  -> returns on the basis of OS Type object either MacFactory or WinFactory
+MacFactory and WinFactory implements IFactory .
+
+MacFactory returns Button object on calling create and TextBox Object on calling showText.
+WinFactory returns Button object on calling create and TextBox Object on calling showText.
+
+Than Button will have press() method and textbox have showText Method and repective concrete class will
+going to implement these method.
